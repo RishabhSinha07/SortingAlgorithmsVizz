@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SortingAlgorithmsVizz/static/css/main.0443b254.chunk.css",
+    "main.js": "/SortingAlgorithmsVizz/static/js/main.2f7ac20b.chunk.js",
+    "main.js.map": "/SortingAlgorithmsVizz/static/js/main.2f7ac20b.chunk.js.map",
+    "runtime-main.js": "/SortingAlgorithmsVizz/static/js/runtime-main.10cbda42.js",
+    "runtime-main.js.map": "/SortingAlgorithmsVizz/static/js/runtime-main.10cbda42.js.map",
+    "static/css/2.2638839d.chunk.css": "/SortingAlgorithmsVizz/static/css/2.2638839d.chunk.css",
+    "static/js/2.ea7a67b5.chunk.js": "/SortingAlgorithmsVizz/static/js/2.ea7a67b5.chunk.js",
+    "static/js/2.ea7a67b5.chunk.js.map": "/SortingAlgorithmsVizz/static/js/2.ea7a67b5.chunk.js.map",
+    "static/js/3.8a996e15.chunk.js": "/SortingAlgorithmsVizz/static/js/3.8a996e15.chunk.js",
+    "static/js/3.8a996e15.chunk.js.map": "/SortingAlgorithmsVizz/static/js/3.8a996e15.chunk.js.map",
+    "index.html": "/SortingAlgorithmsVizz/index.html",
+    "static/css/2.2638839d.chunk.css.map": "/SortingAlgorithmsVizz/static/css/2.2638839d.chunk.css.map",
+    "static/css/main.0443b254.chunk.css.map": "/SortingAlgorithmsVizz/static/css/main.0443b254.chunk.css.map",
+    "static/js/2.ea7a67b5.chunk.js.LICENSE.txt": "/SortingAlgorithmsVizz/static/js/2.ea7a67b5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10cbda42.js",
+    "static/css/2.2638839d.chunk.css",
+    "static/js/2.ea7a67b5.chunk.js",
+    "static/css/main.0443b254.chunk.css",
+    "static/js/main.2f7ac20b.chunk.js"
+  ]
+}
