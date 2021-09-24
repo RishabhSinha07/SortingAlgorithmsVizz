@@ -11,18 +11,18 @@ function Header(props) {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
         <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="me-auto" style = {{fontFamily:'Cursive'}}>Let's Visualize!</Nav>
             <Nav className="me-auto">
             <NavDropdown title={props.currentAlgo} id="collasible-nav-dropdown">
                 <Button id="SortingTypes" variant="light" onClick = {() => {props.updateAlgo("Insertion Sort");}}>Insertion Sort</Button>
                 <Button id="SortingTypes" variant="light" onClick = {() => {props.updateAlgo("Selection Sort");}}>Selection Sort</Button>
                 <Button id="SortingTypes" variant="light" onClick = {() => {props.updateAlgo("Bubble Sort");}}>Bubble Sort</Button>
                 <Button id="SortingTypes" variant="light" onClick = {() => {props.updateAlgo("Count Sort");}}>Count Sort</Button>
-                <Button id="SortingTypes" variant="light" onClick = {() => {props.updateAlgo("Radix Sort");}}>Radix Sort</Button>
                 <Button id="SortingTypes" variant="light" onClick = {() => {props.updateAlgo("Cyclic Sort");}}>Cyclic Sort</Button>
             </NavDropdown>
             </Nav>
         <Button variant="dark" onClick = {() => {props.randomize(true);}}>Randomize</Button>
-        <RangeSlider min = {5} max = {340} tooltip = "on" variant = "success" id="slider" value={props.sliderValue} onChange={changeEvent => props.SetSliderValue(changeEvent.target.value)} variant='light'/>
+        <RangeSlider min = {5} max = {window.screen.availWidth/5.5} tooltip = "on" variant = "success" id="slider" value={props.sliderValue} onChange={changeEvent => props.SetSliderValue(changeEvent.target.value)} variant='light'/>
         <Button variant="success" onClick = {() => {props.start(true);}}>Start</Button>
         </Navbar.Collapse>
         </Container>
